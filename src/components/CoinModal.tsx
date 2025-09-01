@@ -18,7 +18,6 @@ export const CoinModal: React.FC<CoinModalProps> = ({ coin, isOpen, onClose }) =
   const isPositive = coin.price_change_percentage_24h >= 0;
   
   const timeRanges = [
-    { label: '1D', days: 1 },
     { label: '7D', days: 7 },
     { label: '30D', days: 30 },
     { label: '90D', days: 90 },
@@ -168,4 +167,5 @@ export const CoinModal: React.FC<CoinModalProps> = ({ coin, isOpen, onClose }) =
       </div>
     </div>
   );
+
 };

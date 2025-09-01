@@ -1,0 +1,11 @@
+1. First, i used a BOLT.ai to create the structure and code of whole project. But there are some issues. So, i used chatgpt to overcome these issues.
+
+2. Vanry is overlapping with the price of coin. So i passed below prompt to chatgpt
+Prompt: "Currently Vanry/USDT overlapping with coin card. Update vanry/usdt section so it wouldnot overlap with coin prive.
+This is my current code.” (I pasted my CoinCard component for modification to support Vanry/USDT)
+
+3. Dark and Light Theme Toggle not working. 
+Prompt: " Theme switching button is not working properly. Update it so that dark and light theme can be switched.
+my current code is (I provided useTheme.ts and ThemeToggle.tsx file)"
+
+4. Sometime multiple hits to free CoinGreko api failed. Ask gpt to update it. It only added 3 retries logic inside service/cryptoService.ts.
